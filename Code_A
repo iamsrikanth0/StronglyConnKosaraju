@@ -80,7 +80,7 @@ public static void kosarajuAlgo(ArrayList<Edge> graph[], int V){
     while(!s.isEmpty()){
         int curr = s.pop();
         if (!vis[curr]){
-            depthFirstSearch(graph, curr, vis);
+            depthFirstSearch(transpose, curr, vis);
  System.out.println();
         }
     }
